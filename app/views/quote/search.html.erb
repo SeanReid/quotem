@@ -1,0 +1,5 @@
+<h1>Found <%= @quotes.count %> results for <%= params[:search] %></h1>
+<p><% @quotes.each do |quote| %>
+     <p><%= quote.message %></p>
+   <% end %>
+</p>

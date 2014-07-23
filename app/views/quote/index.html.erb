@@ -1,0 +1,11 @@
+<h1><%= @quotes.count %> Quotes</h1>
+
+<%= form_tag({:controller=>"quote", :action=>"index"}, :method=> "get") do %>
+  <%= text_field_tag :search, params[:search], placeholder: 'Search' %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<p><% @quotes.each do |quote| %>
+     <p><%= quote.message %></p>
+   <% end %>
+</p>
