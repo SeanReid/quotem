@@ -1,11 +1,11 @@
 This is a simple app that was tasked with doing the following:
 
-Create a rails app that lists "Quotes"
-Populate 100 fake (different) quotes that are db:seed'd
-Add a search bar, and search for the Quotes
-Display the results on the screen
+* Create a rails app that lists "Quotes"
+* Populate 100 fake (different) quotes that are db:seed'd
+* Add a search bar, and search for the Quotes
+* Display the results on the screen
 
-search lower and upper case
-search partial words
-should tell me the resulting count
-use base stuff OR pg_search
+* search lower and upper case
+* search partial words
+* should tell me the resulting count
+* use base stuff OR pg_search
