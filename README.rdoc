@@ -1,28 +1,11 @@
-== README
+This is a simple app that was tasked with doing the following:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create a rails app that lists "Quotes"
+Populate 100 fake (different) quotes that are db:seed'd
+Add a search bar, and search for the Quotes
+Display the results on the screen
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+search lower and upper case
+search partial words
+should tell me the resulting count
+use base stuff OR pg_search
