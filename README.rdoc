@@ -1,4 +1,4 @@
-This is a simple app that was tasked with doing the following:
+This is a simple app that was created with doing the following requirements:
 
 * Create a rails app that lists "Quotes"
 * Populate 100 fake (different) quotes that are db:seed'd
